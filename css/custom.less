@@ -1,0 +1,64 @@
+@light-yellow: #FFFF81;
+@light-opac: rgba(255,255,220,1);
+@nav-active: yellow;
+@nav-hover:#F8E184;
+@right-border: 2px solid grey;
+@badge-color: #F7EC5C;
+
+@font-face
+{
+font-family: cafeandbrew;
+src: url(cafeandbrewery.ttf);
+}
+.headerfont{
+	font-family: cafeandbrew;
+}
+
+
+nav ul li a {
+font-family: cafeandbrew;
+font-size: 1.5em;	
+
+}
+nav ul li a:hover {
+	background:@nav-hover !important;
+}	
+nav ul li a:active, nav ul li a.current {
+background-color:@nav-active;
+}
+
+.nav-tabs
+.nav-tabs li{
+	text-align: right;
+	padding-left: 14px;
+}
+.borderRight{
+	border-right:@right-border;
+	background-image: url("../images/yellowcloth.jpg");
+}
+.media-body{
+	padding:5px;
+}
+.media-heading{
+	text-decoration: underline;
+}
+.margtop{
+	margin-top: 10px;
+}
+.opacback{
+	background-color:@light-opac;
+	border-radius: 10px;
+}
+.table tr{
+	border:none;
+}
+.glyphicon{
+	margin-right:10px;
+}
+.badge{
+	background-color:@badge-color;
+	color:black;
+}
+.well{
+	background-color:@light-yellow, 80%;
+}
