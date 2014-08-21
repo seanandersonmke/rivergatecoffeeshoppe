@@ -11,7 +11,7 @@
         <span class="icon-bar"></span>
       </button>
       <div class="navbar-brand shadow">
-        <h5 style="text-align:center">The Rivergate Coffee Shoppe</h5>
+        <h5 class="center-text">The Rivergate Coffee Shoppe</h5>
         <img src="images/breakfast2.png" class="img-responsive center-block" alt="Breakfast Platter">
       </div>
     </div>

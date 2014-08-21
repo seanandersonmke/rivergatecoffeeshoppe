@@ -354,6 +354,11 @@ iframe{-webkit-border-radius: 10px;
 	margin-top: 40px;
 	}
 }
+@media (max-width: 768px) {
+ .negmarg{
+	margin-top: -18px;
+	}
+}
 .fade-in{
   	  -webkit-animation: fadein 1.2s; /* Safari and Chrome */
        -moz-animation: fadein 1.2s; /* Firefox */

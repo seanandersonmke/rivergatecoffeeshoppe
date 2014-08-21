@@ -8,12 +8,12 @@
 			<?php include 'views/breakfast/omelettes.php';?>
 			<?php include 'views/breakfast/breakfastspecials.php';?>
 			<?php include 'views/breakfast/kids.php';?>
-			<?php include 'views/breakfast/cereal.php';?>
 		</div>
-		<div class="col-md-6 borderRight" style="padding-bottom: 17px;">
+		<div class="col-md-6 borderRight negmarg" style="padding-bottom: 17px;">
 			<?php include 'views/breakfast/breakfast.php';?>
 			<?php include 'views/breakfast/sides.php';?>
 			<?php include 'views/breakfast/beverages.php';?>
+			<?php include 'views/breakfast/cereal.php';?>
 		</div>
 	</div>
 </section>

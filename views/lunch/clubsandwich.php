@@ -10,8 +10,37 @@
   </li>
 </ul>
 </div>
+
+<div class="btn-group btn-group-justified">
+   <div class="btn-group">
+<button class="btn btn-default opacback" id="clubsandbut"><span class="glyphicon glyphicon-arrow-down"></span></button>
+  </div>
+</div>
+
+<div id="clubsandtable">
 <table class="table opacback" ng-controller='LunchController'>
 	<tr ng-repeat='clubsandwich in clubsandwiches'>
 	<td class="bold">{{clubsandwich.item}}</td><td class="italic">{{clubsandwich.desc}}</td><td><span class="badge">{{clubsandwich.price|currency}}</span></td>
 	</tr>
 </table>
+<div class="btn-group btn-group-justified">
+   <div class="btn-group">
+<button class="btn btn-default opacback" id="clubsandclose"><span class="glyphicon glyphicon-arrow-up"></span></button>
+  </div>
+</div>
+</div>
+
+<script>
+var clubsandcontent = $('#clubsandtable');
+    clubsandcontent.hide();
+  $( "#clubsandbut" ).click(function() {
+  clubsandcontent.slideToggle( "slow", function() {
+// Animation complete.
+});
+});
+$( "#clubsandclose" ).click(function() {
+clubsandcontent.slideToggle( "slow", function() {
+// Animation complete.
+});
+});
+</script>
